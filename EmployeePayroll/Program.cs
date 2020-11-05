@@ -7,7 +7,7 @@ namespace EmployeePayroll
         static void Main(string[] args)
         {
             EmployeeRepo repo = new EmployeeRepo();
-            repo.CheckConnection();
+            repo.GetAllEmployee();
         }
     }
 }
